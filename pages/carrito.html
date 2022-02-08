@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="icon" href="../img/logo.png">
+    <script src="https://kit.fontawesome.com/21f8be476a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav__container">
+                <a href="../index.html">
+                    <img src="../img/logo.png" alt="" height="90%" width="100px" class="nav__logo" title="Wally Shop">
+                </a>
+                <label for="menu" class="nav__label">
+                    <i class="fas fa-bars" class="nav__img"></i>
+                </label>
+                <input type="checkbox" id="menu" class="nav__input">
+                <div class="nav__menu">
+                    <a href="../index.html" class="nav__item" title="Inicio">Inicio</a>
+                    <a href="../pages/productos.html" class="nav__item" title="Productos">Productos</a>
+                    <a href="../pages/acercade.html" class="nav__item" title="Acerca de">Acerca de</a>
+                    <a href="../pages/carrito.html" class="nav__item" title="Ir al carrito">Carrito</a>
+                    <a href="../pages/perfil.html" class="nav__item" title="Ir al perfil">Perfil</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="carrito__container">
+            <div class="carrito__containerImg">
+                <img src="../img/zapatillasnike1.jpg" alt="Zapatillas Nike color negro" class="carrito__img"/>
+            </div>
+            <h3 class="carrito__total">Total $23.135</h3>
+            <div class="carrito__costos">
+                <div class="carrito__items1">Subtotal............$23.135</div>
+                <div class="carrito__items2">Costo de Envío............$999</div>
+                <div class="carrito__items3">Total............$24.134</div>
+            </div>
+            <div class="carrito__boton"><a href="./checkout.html">
+                <button class="btn__carrito btn1">Comprar</button>
+            </a>
+            </div>
+            <a href="../pages/productos.html" class="carrito__sComprando">Seguir Comprando</a>
+        </div>
+    </section>
+</body>
+</html>
