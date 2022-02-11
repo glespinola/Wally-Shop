@@ -118,7 +118,7 @@ video{
 }
 
 /* Card */
-.container__cardShoes{
+/* .container__cardShoes{
     height: 100%;
     width: 100%;
     display: flex;
@@ -202,7 +202,7 @@ video{
 .read-more:hover{
     cursor: pointer;
 }
-
+ */
 body .js-tilt-glare{
    pointer-events: none; 
 }
@@ -211,6 +211,7 @@ body .js-tilt-glare{
 button:active, .nav__item:active{
     transform: scale(0.9);
 }
+
 hr{
     height: 5px;
     margin-left: 25%;
