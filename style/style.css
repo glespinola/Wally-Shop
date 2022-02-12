@@ -13,7 +13,7 @@ body a{
     outline: 0;
 }
 /* Nav */
-.nav{
+/* .nav{
     background-color: #ffffff;
     height: 80px;
     color:#000;
@@ -63,7 +63,7 @@ body a{
 
 .nav__item:hover{
     --clippy:polygon(100% 0, 0 0, 0 100%, 100% 100%);
-}
+} */
 
 
 /* Video */
@@ -118,7 +118,7 @@ video{
 }
 
 /* Card */
-/* .container__cardShoes{
+.container__cardShoes{
     height: 100%;
     width: 100%;
     display: flex;
@@ -202,7 +202,7 @@ video{
 .read-more:hover{
     cursor: pointer;
 }
- */
+
 body .js-tilt-glare{
    pointer-events: none; 
 }
@@ -492,7 +492,7 @@ footer{
 
   }
 @media (max-width:768px){
-    .nav__label{
+    /* .nav__label{
         display: grid;
         cursor:pointer;
         grid-column: 11/11;
@@ -519,7 +519,7 @@ footer{
     }
     .nav__input:checked + .nav__menu{
         clip-path: circle(100% at center);
-    }
+    } */
 
     .main__tittle{
         font-size: 50px;
@@ -622,7 +622,7 @@ footer{
 
 
 @media (max-width:425px){
-    .nav__label{
+/*     .nav__label{
         display: grid;
         cursor:pointer;
         grid-column: 11/11;
@@ -650,7 +650,7 @@ footer{
     .nav__input:checked + .nav__menu{
         clip-path: circle(100% at center);
     }
-
+ */
     .main__tittle{
         font-size: 50px;
     }
