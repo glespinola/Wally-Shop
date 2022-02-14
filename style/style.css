@@ -118,7 +118,7 @@ video{
 }
 
 /* Card */
-.container__cardShoes{
+/* .cardShoes{
     height: 100%;
     width: 100%;
     display: flex;
@@ -128,7 +128,7 @@ video{
     cursor: default;
 }
 
-.card__ShoeS{
+.cardShoes__container{
     position: relative;
     overflow: hidden;
     width: 23%;
@@ -145,7 +145,7 @@ video{
     margin: 20px;
 }
 
-.shoes.container{
+.shoes.cardShoes__container{
     height: 150px;
     width: 100%;
     display: flex;
@@ -205,7 +205,7 @@ video{
 
 body .js-tilt-glare{
    pointer-events: none; 
-}
+} */
 
 
 button:active, .nav__item:active{
@@ -220,7 +220,7 @@ hr{
 }
 /* Footer */
 
-footer{
+/* footer{
     background: #000;
     color: #FFF;
     text-align: center;
@@ -241,8 +241,8 @@ footer{
     grid-column: span 3;
 }
 
-
-.grid__footer, .grid__acercaDe{
+/* Acerca de */
+.grid__footer, .acercaDe__grid{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     width: 90%;
@@ -257,7 +257,9 @@ footer{
     margin-top: 30px;
     margin-bottom:30px ;
 }
+ 
 
+ /* Acerca de */
 .acercaDe__titulo{
     grid-column: 1/6;
 }
@@ -282,7 +284,7 @@ footer{
 }
 
 
-.card__container{
+/* .card__container{
     height: 100%;
     width: 100%;
     display: flex;
@@ -333,9 +335,9 @@ footer{
     text-align: center;
     font-size: 30px;
 }
+ */
 
-
-
+/* 
 
 .carrito__container{
     display: grid;
@@ -349,6 +351,7 @@ footer{
     gap: 10px;
     overflow: hidden;
     align-items: center;
+    
 }
 
 .carrito__containerImg{
@@ -427,13 +430,13 @@ footer{
 .btn1:hover::before{
     height: 180%;
 
-}
+} */
 .pad{
     margin-top:20px;
 }
 
 
-.product__container{
+/* .product{
     height: 100%;
     width: 100%;
     display: flex;
@@ -444,7 +447,7 @@ footer{
     cursor: default;
 }
 
-.product{
+.product__container{
     position: relative;
     overflow: hidden;
     width: 290px;
@@ -477,7 +480,7 @@ footer{
 .product a{
     text-decoration: none;
 }
-
+ */
 
 @keyframes zoom {
     0% {
