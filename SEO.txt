@@ -1,0 +1,10 @@
+Entrega SEO+SCSSII
+
+Sidemap XML
+Description en mis HTML
+Keywords en los HTML
+Titulo en cada HTML
+
+Aplique el @extend para DisplayFlex
+Hice @mixin para mediaqueries
+Finalmente mapas para las alturas de mi navBar
