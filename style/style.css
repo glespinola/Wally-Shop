@@ -494,7 +494,7 @@ hr{
     }
 
   }
-@media (max-width:768px){
+/* @media (max-width:768px){ */
     /* .nav__label{
         display: grid;
         cursor:pointer;
@@ -524,7 +524,7 @@ hr{
         clip-path: circle(100% at center);
     } */
 
-    .main__tittle{
+/*     .main__tittle{
         font-size: 50px;
     }
     
@@ -620,11 +620,11 @@ hr{
         margin-inline-end: 0px;
     }
 
-}
+} */
 
 
 
-@media (max-width:425px){
+/* @media (max-width:425px){ */
 /*     .nav__label{
         display: grid;
         cursor:pointer;
@@ -654,7 +654,7 @@ hr{
         clip-path: circle(100% at center);
     }
  */
-    .main__tittle{
+/*     .main__tittle{
         font-size: 50px;
     }
     
@@ -751,4 +751,4 @@ hr{
         margin-inline-end: 0px;
     }
 
-}
+} */

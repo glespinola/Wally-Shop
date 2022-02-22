@@ -5,8 +5,7 @@
     color:$colorBG;
 
     &__container{
-        display: grid;
-        grid-template-columns: repeat(12,1fr);
+        @include grid (12);
         height: map-get($fontSize , height1 );
         width: 90%;
         margin: 0 auto;
@@ -45,7 +44,7 @@
         &:hover{
             --clippy:polygon(100% 0, 0 0, 0 100%, 100% 100%);
         }
-        
+
     }
 
     &__label, &__input{
@@ -74,7 +73,43 @@
             background: #ffffff;
             width: 100%;
             left: 0;
-            @extend %diplayFlex;
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: column;
+            align-items: center;
+            clip-path:circle(0 at center) ;
+            transition: clip-path 1s ease-in-out;
+            z-index: 999999;
+        }
+        &__input:checked + &__menu{
+            clip-path: circle(100% at center);
+        }
+    }
+}
+
+@include respond (tablet){
+    .nav{
+        &__label{
+            display: grid;
+            cursor:pointer;
+            grid-column: 11/11;
+            font-size: 30px;
+        }
+        &__logo{
+            height: map-get($fontSize , height3 );
+            height: 70px;
+        }
+        &__menu{
+            position: fixed;
+            top:80px;
+            bottom: 0;
+            background: #ffffff;
+            width: 100%;
+            left: 0;
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: column;
+            align-items: center;
             clip-path:circle(0 at center) ;
             transition: clip-path 1s ease-in-out;
             z-index: 999999;
